@@ -59,4 +59,4 @@ graph TD
 
     B -- "Exit" --> O[End];
 
-![alt image]()
+![alt image](https://github.com/iyammaryam/TUGAS-PRAKTIKUM-5-PERTEMUAN-10./blob/main/Flowchart.jpg)
