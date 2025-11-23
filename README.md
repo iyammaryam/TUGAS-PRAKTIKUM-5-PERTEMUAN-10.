@@ -29,34 +29,4 @@ Rumus perhitungan: `Nilai Akhir = (Tugas * 0.30) + (UTS * 0.35) + (UAS * 0.35)`
 
 ## Flowchart Program
 
-Berikut adalah representasi visual dari alur kerja program:
-
-```mermaid
-graph TD
-    A[Start] --> B{Pilih Opsi};
-    B -- "Tambah Data" --> C[Input Data Mahasiswa dan Nilai];
-    C --> D[Hitung Nilai Akhir];
-    D --> E[Simpan Data ke Dictionary];
-    E --> B;
-
-    B -- "Ubah Data" --> F[Pilih Mahasiswa untuk Diubah];
-    F --> G[Update Data Mahasiswa/Nilai];
-    G --> D;
-
-    B -- "Hapus Data" --> H[Pilih Mahasiswa untuk Dihapus];
-    H --> I[Hapus Data dari Dictionary];
-    I --> B;
-
-    B -- "Tampilkan Data" --> J[Tampilkan Semua Data Mahasiswa];
-    J --> B;
-
-    B -- "Cari Data" --> K[Masukkan Nama/NIM Mahasiswa];
-    K --> L{Data Ditemukan?};
-    L -- "Ya" --> M[Tampilkan Detail Mahasiswa];
-    L -- "Tidak" --> N[Pesan: Data Tidak Ditemukan];
-    M --> B;
-    N --> B;
-
-    B -- "Exit" --> O[End];
-
 ![alt image](https://github.com/iyammaryam/TUGAS-PRAKTIKUM-5-PERTEMUAN-10./blob/main/Flowchart.jpg)
