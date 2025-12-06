@@ -30,3 +30,4 @@ Rumus perhitungan: `Nilai Akhir = (Tugas * 0.30) + (UTS * 0.35) + (UAS * 0.35)`
 ## Flowchart Program
 
 ![alt image](https://github.com/iyammaryam/TUGAS-PRAKTIKUM-5-PERTEMUAN-10./blob/main/Flowchart.jpg)
+![alt image]()
